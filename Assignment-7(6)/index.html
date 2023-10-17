@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment(6)</title>
+</head>
+<body>
+    <h2>Assignment(6)</h2>
+    <h2>Hafiz Asifullah---248595</h2>
+
+
+
+    <script>
+         var total = 300
+        var English = +prompt("Enter The Number Of English")
+        var math =  +prompt("Enter The Number Of Math")
+        var Urdu =  + prompt("Enter The Number Of Urdu")
+        var res = English + math + Urdu
+        var percentage = res * 100 / 300
+        document.write("<br><h2><u>Result Card</u></h2>" + "<br><b>Total</b> = " + total + "<br><br><b>English</b> = " + English + 
+        "<br><br><b>math</b> = " + math + "<br><br><b>Urdu</b> = " + Urdu + "<br><br><b>Obtained</b> = " + res +
+         "<br><br><b>percentage</b> = " + percentage +"%"+"<br><br>")
+
+
+        if(percentage >= "80" && percentage < "101"){
+        document.write("<b>Grade</b> = "+"A.one")
+        document.write("<br><br>"+"<b>Remarks</b> = "+"Excellent")
+           }else   if(percentage >= "70" && percentage < "80"){
+            document.write("<b>Grade</b> = "+"A")
+            document.write("<b>Remarks</b> = "+"Goog")
+            } 
+        else if(percentage >= "60" && percentage < "70"){
+            document.write("<b>Grade</b> = "+"B")
+            document.write("<b>Remarks</b> = "+"You Need To Improve")
+            }  
+          else if(percentage >= "50" && percentage < "60"){
+            document.write("<b>Grade</b> = "+"C"+"<br><br>")
+            document.write("<b>Remarks</b> = "+"You Need To Verry Hard working")
+            }
+        
+        else{
+        document.write("<b>Grade</b> = "+"Fail"+"<br><br>")
+        document.write("<b>Remarks</b> = "+"Sorry")
+        }
+        
+        
+       
+    </script>
+</body>
+</html>
